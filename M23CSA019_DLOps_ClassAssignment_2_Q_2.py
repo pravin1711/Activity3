@@ -31,7 +31,7 @@ transform = transforms.Compose([
     transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]),
 ])
 
-#I am adding some extra comment in the version1 for the model existed in main already
+#I am changing some extra comment in the version2 for the model existed in main already 
 
 train_set = datasets.STL10(root='./data', split='train', download=True, transform=transform)
 test_set = datasets.STL10(root='./data', split='test', download=True, transform=transform)
